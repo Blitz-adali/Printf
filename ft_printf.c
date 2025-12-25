@@ -30,6 +30,7 @@ int	ft_format(va_list ap, char c)
 		return (ft_printf_hex(va_arg(ap, unsigned int), 1));
 	return (0);
 }
+
 int	ft_printf(const char *str, ...)
 {
 	va_list	ap;
